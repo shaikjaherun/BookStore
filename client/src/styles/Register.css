@@ -1,0 +1,142 @@
+.register-page{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:40px;
+background:linear-gradient(135deg,#5b4cf3,#2563eb);
+}
+
+.register-card{
+width:1150px;
+max-width:100%;
+background:rgba(255,255,255,.15);
+backdrop-filter:blur(20px);
+border-radius:25px;
+overflow:hidden;
+display:grid;
+grid-template-columns:1fr 1fr;
+box-shadow:0 25px 60px rgba(0,0,0,.25);
+}
+
+.register-left{
+padding:50px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+.register-left img{
+width:320px;
+margin-bottom:25px;
+animation:float 4s infinite;
+}
+
+.register-left h2{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.register-left p{
+font-size:18px;
+line-height:1.8;
+}
+
+.register-right{
+background:white;
+padding:55px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
+.register-right h1{
+font-size:42px;
+margin-bottom:10px;
+color:#1e293b;
+}
+
+.register-right p{
+margin-bottom:30px;
+color:#666;
+}
+
+.input-box{
+display:flex;
+align-items:center;
+background:#f5f7fb;
+padding:16px 20px;
+border-radius:15px;
+margin-bottom:20px;
+}
+
+.input-box svg{
+font-size:20px;
+color:#2563eb;
+margin-right:15px;
+}
+
+.input-box input{
+flex:1;
+border:none;
+outline:none;
+background:none;
+font-size:16px;
+}
+
+.input-box span{
+cursor:pointer;
+}
+
+.register-btn{
+width:100%;
+padding:16px;
+border:none;
+border-radius:15px;
+background:#2563eb;
+color:white;
+font-size:18px;
+font-weight:bold;
+transition:.3s;
+}
+
+.register-btn:hover{
+background:#1d4ed8;
+transform:translateY(-3px);
+}
+
+.login-link{
+margin-top:25px;
+text-align:center;
+}
+
+.login-link a{
+margin-left:8px;
+font-weight:bold;
+text-decoration:none;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-12px);}
+100%{transform:translateY(0);}
+}
+
+@media(max-width:900px){
+
+.register-card{
+grid-template-columns:1fr;
+}
+
+.register-left{
+display:none;
+}
+
+.register-right{
+padding:35px;
+}
+
+}
