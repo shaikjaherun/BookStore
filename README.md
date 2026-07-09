@@ -349,10 +349,3 @@ https://github.com/shaikjaherun
 # Demo Link
 
 https://drive.google.com/file/d/1p9Y6rpYOKavatTgB66eMDlOvTMAiJjao/view?usp=sharing
-
-
----
-
-# License
-
-This project is developed for educational and internship purposes.
