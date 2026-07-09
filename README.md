@@ -3,6 +3,11 @@
 A complete Full Stack BookStore web application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). The application allows users to browse books, register/login, manage carts, place orders, and allows administrators to manage books.
 
 ---
+# Demo Link
+
+https://drive.google.com/file/d/1p9Y6rpYOKavatTgB66eMDlOvTMAiJjao/view?usp=sharing
+
+---
 
 # 🚀 Live Demo
 
@@ -344,8 +349,3 @@ GitHub:
 
 https://github.com/shaikjaherun
 
----
-
-# Demo Link
-
-https://drive.google.com/file/d/1p9Y6rpYOKavatTgB66eMDlOvTMAiJjao/view?usp=sharing
